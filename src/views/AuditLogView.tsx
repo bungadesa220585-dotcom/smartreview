@@ -68,7 +68,7 @@ export const AuditLogView: React.FC = () => {
             <span>Audit Trail & Riwayat Perubahan</span>
           </h1>
           <p className="text-xs sm:text-sm text-slate-500 mt-0.5">
-            Log mutlak semua perubahan URL tujuan, aktivasi stiker, penonaktifan, dan penulisan tag NFC (PRD 10.5).
+            Log mutlak semua perubahan URL tujuan, aktivasi stiker, penonaktifan, dan penulisan tag NFC.
           </p>
         </div>
 

@@ -131,7 +131,7 @@ export const SettingsView: React.FC = () => {
           <span>Pengaturan Akun & Sistem</span>
         </h1>
         <p className="text-xs sm:text-sm text-slate-500 mt-0.5">
-          Kelola profil admin, keamanan kata sandi, instalasi PWA, serta prosedur pencadangan data (PRD 7.7 & 12.18).
+          Kelola profil admin, keamanan kata sandi, instalasi PWA, serta prosedur pencadangan data.
         </p>
       </div>
 
@@ -254,7 +254,7 @@ export const SettingsView: React.FC = () => {
           <span>Cadangan Database & Pemulihan (Backup & Restore)</span>
         </h3>
         <p className="text-xs text-slate-500 leading-relaxed">
-          Sesuai persyaratan PRD bagian 12 dan 15, sistem menyediakan ekspor file cadangan JSON dan prosedur pemulihan bencana.
+          Sistem menyediakan ekspor file cadangan JSON dan prosedur pemulihan data berkala untuk memastikan keamanan data Anda.
         </p>
 
         {restoreFeedback && (

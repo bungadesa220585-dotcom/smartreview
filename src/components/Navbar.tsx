@@ -34,8 +34,8 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, onTabChange }) => {
             <div>
               <div className="flex items-center gap-2">
                 <span className="font-extrabold text-slate-900 tracking-tight text-base sm:text-lg">SmartReview</span>
-                <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded-full bg-blue-100 text-blue-700 border border-blue-200">
-                  Admin MVP
+                <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 border border-blue-200">
+                  Portal Admin
                 </span>
               </div>
               <p className="text-[11px] text-slate-500 hidden sm:block">Aktivasi QR Code & NFC Writer Google Review</p>

@@ -265,10 +265,6 @@ export const QRActivationView: React.FC = () => {
     setPrintSheetOpen(true);
   };
 
-  const setGoogleReviewSample = () => {
-    setDestinationInput('https://maps.app.goo.gl/sample-review-link');
-  };
-
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 pb-24 md:pb-12">
       {/* Top Banner & Quick Controls */}
@@ -468,17 +464,10 @@ export const QRActivationView: React.FC = () => {
                 </div>
 
                 <div>
-                  <div className="flex items-center justify-between mb-1.5">
+                  <div className="mb-1.5">
                     <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider">
                       URL Tujuan Google Review (Wajib HTTPS)
                     </label>
-                    <button
-                      type="button"
-                      onClick={setGoogleReviewSample}
-                      className="text-[11px] text-blue-600 hover:text-blue-800 font-semibold"
-                    >
-                      Contoh URL
-                    </button>
                   </div>
                   <div className="relative rounded-xl">
                     <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">

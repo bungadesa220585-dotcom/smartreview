@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
-import { QrCode, Lock, Mail, ArrowRight, ShieldCheck, Sparkles, AlertCircle } from 'lucide-react';
+import { QrCode, Lock, Mail, ArrowRight, ShieldCheck, AlertCircle } from 'lucide-react';
 import { PWAInstallButton } from '../components/PWAInstallButton';
 
 export const LoginView: React.FC = () => {
@@ -24,11 +24,6 @@ export const LoginView: React.FC = () => {
     }
   };
 
-  const handleQuickDemo = () => {
-    setEmail('admin@smartreview.id');
-    setPassword('admin123456');
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 via-blue-50/30 to-slate-100 flex flex-col justify-center py-10 px-4 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
@@ -43,26 +38,8 @@ export const LoginView: React.FC = () => {
           </p>
         </div>
 
-        {/* Quick Demo Credentials Pill */}
-        <div className="mt-6 bg-blue-100/70 border border-blue-200/80 rounded-2xl p-3.5 flex items-center justify-between text-xs text-blue-900">
-          <div className="flex items-center gap-2">
-            <Sparkles className="w-4 h-4 text-blue-600 flex-shrink-0" />
-            <div>
-              <p className="font-semibold">Kredensial Default Admin:</p>
-              <p className="text-[11px] text-blue-700">admin@smartreview.id / admin123456</p>
-            </div>
-          </div>
-          <button
-            type="button"
-            onClick={handleQuickDemo}
-            className="px-2.5 py-1 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-[11px] font-semibold transition active:scale-95 shadow-xs"
-          >
-            Isi Otomatis
-          </button>
-        </div>
-
         {/* Login Card */}
-        <div className="mt-4 bg-white py-8 px-6 shadow-xl shadow-slate-200/60 rounded-3xl border border-slate-100 sm:px-8">
+        <div className="mt-8 bg-white py-8 px-6 shadow-xl shadow-slate-200/60 rounded-3xl border border-slate-100 sm:px-8">
           {error && (
             <div className="mb-5 p-3.5 bg-rose-50 border border-rose-200 rounded-xl flex items-start gap-2.5 text-xs text-rose-700">
               <AlertCircle className="w-4 h-4 text-rose-600 flex-shrink-0 mt-0.5" />
