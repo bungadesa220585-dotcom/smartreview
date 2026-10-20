@@ -247,7 +247,7 @@ export const SettingsView: React.FC = () => {
         </form>
       </div>
 
-      {/* Database Backup & Restore (PRD Section 12 & 15) */}
+      {/* Database Backup & Restore */}
       <div className="bg-white rounded-3xl p-5 sm:p-7 border border-slate-200 shadow-sm space-y-4">
         <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
           <Database className="w-4 h-4 text-blue-600" />

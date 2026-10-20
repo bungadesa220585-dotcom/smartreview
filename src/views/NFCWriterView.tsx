@@ -243,7 +243,7 @@ export const NFCWriterView: React.FC = () => {
             {/* Mode Selection Pill */}
             <div>
               <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
-                Pilih Mode Penulisan NFC (PRD 9.1 & 9.2)
+                Pilih Mode Penulisan NFC
               </label>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {/* Redirect Mode */}
