@@ -1,0 +1,50 @@
+{
+  "admins": [
+    {
+      "id": "72aeefa4-8baf-44db-acda-b748fbee564f",
+      "email": "admin@smartreview.id",
+      "password_hash": "28d17201a0d1a1014eafc909f470f6afc1bee0bd3055e923ccd2893f140061cf",
+      "created_at": "2026-10-20T13:58:15.057Z",
+      "updated_at": "2026-10-20T13:58:15.057Z"
+    }
+  ],
+  "redirect_links": [],
+  "qr_codes": [],
+  "nfc_tags": [],
+  "audit_logs": [
+    {
+      "id": "16a0157b-e3d6-4f7c-90b5-1b7e6fa9ff4b",
+      "admin_id": "72aeefa4-8baf-44db-acda-b748fbee564f",
+      "admin_email": "admin@smartreview.id",
+      "action": "ADMIN_LOGIN",
+      "entity_type": "admin",
+      "entity_id": "72aeefa4-8baf-44db-acda-b748fbee564f",
+      "details": {
+        "ip": "127.0.0.1",
+        "user_agent": "curl/7.88.1"
+      },
+      "created_at": "2026-10-20T15:06:16.166Z"
+    },
+    {
+      "id": "d4b727ec-fd8b-46dd-9489-e8b9bd1d3b5a",
+      "admin_id": "72aeefa4-8baf-44db-acda-b748fbee564f",
+      "admin_email": "admin@smartreview.id",
+      "action": "ADMIN_LOGIN",
+      "entity_type": "admin",
+      "entity_id": "72aeefa4-8baf-44db-acda-b748fbee564f",
+      "details": {
+        "ip": "127.0.0.1",
+        "user_agent": "curl/7.88.1"
+      },
+      "created_at": "2026-10-20T14:58:08.478Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "848f080121a48a80e8e4fc68c49dc6afcea99d856effd2cc9fd48f7aa6a895c2",
+      "admin_id": "72aeefa4-8baf-44db-acda-b748fbee564f",
+      "email": "admin@smartreview.id",
+      "expires_at": 1793113576163
+    }
+  ]
+}
